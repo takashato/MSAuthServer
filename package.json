@@ -1,0 +1,15 @@
+{
+  "name": "msauthserver",
+  "version": "1.0.0",
+  "description": "An emulator for MapleStory Auth Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Takashato",
+  "license": "ISC",
+  "dependencies": {
+    "bytebuffer": "^5.0.1"
+  }
+}
