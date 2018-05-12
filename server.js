@@ -3,7 +3,7 @@ const PacketReader = require('./PacketReader');
 const PacketWriter = require('./PacketWriter');
 const PacketWrapper = require('./PacketWrapper');
 
-const PORT = 47611;
+const PORT = (process.env.PORT || 47611);
 
 const server = net.createServer(function (socket) {
     // Prepare information
