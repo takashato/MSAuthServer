@@ -1,3 +1,13 @@
+/**
+ * MapleStory AuthServer Emulator for Private Server
+ *
+ * Implemented by Takashato
+ *
+ * Be free to use and edit, but please leave credit for me
+ *
+ * Based on Diamondo's implements in Go Lang
+ */
+
 const net = require('net');
 const PacketReader = require('./PacketReader');
 const PacketWriter = require('./PacketWriter');
